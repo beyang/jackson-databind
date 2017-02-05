@@ -1,0 +1,131 @@
+{
+  "sourceDirectory" : "src/main/java",
+  "testSourceDirectory" : "src/test/java",
+  "repositories" : [ {
+    "id" : "sonatype-nexus-snapshots",
+    "url" : "https://oss.sonatype.org/content/repositories/snapshots"
+  }, {
+    "id" : "central",
+    "url" : "https://repo.maven.apache.org/maven2"
+  } ],
+  "dependencies" : [ {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.9.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.annotation" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.9.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.core.format", "com.fasterxml.jackson.core.io", "com.fasterxml.jackson.core.json", "com.fasterxml.jackson.core.filter", "com.fasterxml.jackson.core", "com.fasterxml.jackson.core.util", "com.fasterxml.jackson.core.type", "com.fasterxml.jackson.core.base", "com.fasterxml.jackson.core.sym" ]
+  }, {
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "4.12",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.junit.runners", "org.junit.experimental.theories", "org.junit.experimental", "org.junit.internal.runners.rules", "org.junit.internal.requests", "org.junit.experimental.results", "org.junit.internal.runners.model", "org.junit.internal.builders", "junit.textui", "org.junit.experimental.categories", "org.junit.experimental.theories.internal", "org.junit.runners.parameterized", "junit.extensions", "org.junit.internal.runners.statements", "org.junit.experimental.max", "org.junit.runner.notification", "org.junit.matchers", "org.junit.experimental.theories.suppliers", "org.junit.runner.manipulation", "org.junit.internal.matchers", "org.junit.rules", "org.junit.experimental.runners", "org.junit.runners.model", "org.junit.internal", "junit.runner", "org.junit.runner", "org.junit", "org.junit.validator", "org.junit.internal.runners", "junit.framework" ]
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "1.3",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.hamcrest.internal", "org.hamcrest.core", "org.hamcrest" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-module-junit4",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.modules.junit4.internal.impl.testcaseworkaround", "org.powermock.modules.junit4", "org.powermock.modules.junit4.internal.impl" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-module-junit4-common",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.modules.junit4.common.internal", "org.powermock.modules.junit4.common.internal.impl" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-core",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.core.spi.listener", "org.powermock.core.classloader.annotations", "org.powermock.core.spi", "org.powermock.utils", "org.powermock.core.spi.support", "org.powermock.core.spi.testresult", "org.powermock.core.agent", "org.powermock.core.transformers.impl", "org.powermock.mockpolicies.support", "org.powermock.core.transformers", "org.powermock.mockpolicies.impl", "org.powermock.core", "org.powermock.tests.utils.impl", "org.powermock.mockpolicies", "org.powermock.core.testlisteners", "org.powermock.core.spi.testresult.impl", "org.powermock.tests.utils", "org.powermock.core.reporter", "org.powermock.core.classloader" ]
+  }, {
+    "groupId" : "org.javassist",
+    "artifactId" : "javassist",
+    "version" : "3.20.0-GA",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "javassist.convert", "javassist.tools", "javassist.tools.reflect", "javassist.expr", "javassist.tools.rmi", "javassist.util", "javassist.bytecode.analysis", "javassist.bytecode.annotation", "javassist.bytecode.stackmap", "javassist.util.proxy", "javassist.compiler", "javassist.runtime", "javassist.bytecode", "javassist.scopedpool", "javassist.compiler.ast", "javassist", "javassist.tools.web" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-reflect",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.reflect.spi", "org.powermock.reflect.internal.matcherstrategies", "org.powermock.reflect.proxyframework", "org.powermock.reflect.matching", "org.powermock.reflect", "org.powermock.reflect.internal", "org.powermock.reflect.exceptions", "org.powermock.reflect.internal.primitivesupport", "org.powermock.reflect.internal.comparator" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-api-mockito",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.api.mockito.internal.mockcreation", "org.powermock.api.mockito.repackaged", "org.powermock.api.mockito.powermocklistener", "org.powermock.api.mockito", "org.powermock.api.mockito.internal.configuration", "org.powermock.api.mockito.internal.exceptions", "org.powermock.api.mockito.internal.mockmaker", "org.powermock.api.mockito.internal", "org.powermock.api.extension.proxyframework", "org.powermock.api.mockito.internal.invocation", "org.powermock.api.mockito.expectation", "org.powermock.api.extension.listener", "org.powermock.api.mockito.internal.stubbing.answers", "org.powermock.api.mockito.mockpolicies", "org.powermock.api.mockito.verification", "org.powermock.api.mockito.internal.verification", "org.powermock.api.mockito.internal.expectation" ]
+  }, {
+    "groupId" : "org.mockito",
+    "artifactId" : "mockito-core",
+    "version" : "1.10.19",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.mockito.internal.exceptions.stacktrace", "org.mockito.internal.verification.api", "org.mockito.internal.configuration.injection.scanner", "org.mockito.internal.matchers", "org.mockito.stubbing.answers", "org.mockito.cglib.util", "org.mockito.internal.verification.checkers", "org.mockito.internal.creation.cglib", "org.mockito.internal.creation", "org.mockito.internal.creation.instance", "org.mockito.internal.stubbing", "org.mockito.listeners", "org.mockito.internal.invocation", "org.mockito.invocation", "org.mockito.internal.util.collections", "org.mockito.cglib.transform.impl", "org.mockito", "org.mockito.asm.tree", "org.mockito.internal.configuration.injection.filter", "org.mockito.internal.stubbing.answers", "org.mockito.asm.tree.analysis", "org.mockito.internal.configuration.plugins", "org.mockito.runners", "org.mockito.internal.configuration.injection", "org.mockito.stubbing", "org.mockito.internal.verification.argumentmatching", "org.mockito.exceptions.verification", "org.mockito.internal.junit", "org.mockito.internal.creation.settings", "org.mockito.exceptions", "org.mockito.internal.util.reflection", "org.mockito.internal.verification", "org.mockito.mock", "org.mockito.internal.progress", "org.mockito.asm", "org.mockito.internal", "org.mockito.internal.runners", "org.mockito.internal.util.io", "org.mockito.internal.reporting", "org.mockito.verification", "org.mockito.exceptions.stacktrace", "org.mockito.plugins", "org.mockito.exceptions.base", "org.mockito.internal.util", "org.mockito.internal.creation.util", "org.mockito.cglib.core", "org.mockito.exceptions.verification.junit", "org.mockito.cglib.beans", "org.mockito.internal.exceptions", "org.mockito.exceptions.misusing", "org.mockito.cglib.proxy", "org.mockito.internal.exceptions.util", "org.mockito.asm.util", "org.mockito.cglib.transform", "org.mockito.internal.handler", "org.mockito.internal.util.junit", "org.mockito.internal.matchers.apachecommons", "org.mockito.internal.runners.util", "org.mockito.configuration", "org.mockito.internal.configuration", "org.mockito.internal.listeners", "org.mockito.internal.invocation.finder", "org.mockito.cglib.reflect", "org.mockito.internal.stubbing.defaultanswers", "org.mockito.internal.invocation.realmethod", "org.mockito.junit", "org.mockito.internal.debugging" ]
+  }, {
+    "groupId" : "org.objenesis",
+    "artifactId" : "objenesis",
+    "version" : "2.1",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.objenesis.instantiator.android", "org.objenesis", "org.objenesis.instantiator", "org.objenesis.strategy", "org.objenesis.instantiator.jrockit", "org.objenesis.instantiator.sun", "org.objenesis.instantiator.basic", "org.objenesis.instantiator.gcj", "org.objenesis.instantiator.perc" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-api-mockito-common",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.api.mockito.expectation.reporter", "org.powermock.api.extension.agent", "org.powermock.api.mockito.internal.mockcreation", "org.powermock.api.mockito", "org.powermock.api.extension.reporter" ]
+  }, {
+    "groupId" : "org.powermock",
+    "artifactId" : "powermock-api-support",
+    "version" : "1.6.5",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.powermock.api.support.membermodification.strategy", "org.powermock.api.support", "org.powermock.api.support.membermodification", "org.powermock.api.support.membermodification.strategy.impl", "org.powermock.api.extension.reporter" ]
+  }, {
+    "groupId" : "javax.measure",
+    "artifactId" : "jsr-275",
+    "version" : "0.9.1",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "javax.measure", "javax.measure.unit.format", "javax.measure.unit", "javax.measure.quantity", "javax.measure.converter" ]
+  }, {
+    "groupId" : "com.google.jimfs",
+    "artifactId" : "jimfs",
+    "version" : "1.1",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.jimfs" ]
+  }, {
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "18.0",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.annotations", "com.google.common.base", "com.google.common.hash", "com.google.common.escape", "com.google.common.reflect", "com.google.common.html", "com.google.common.util.concurrent", "com.google.thirdparty.publicsuffix", "com.google.common.net", "com.google.common.math", "com.google.common.base.internal", "com.google.common.primitives", "com.google.common.cache", "com.google.common.xml", "com.google.common.eventbus", "com.google.common.io", "com.google.common.collect" ]
+  } ]
+}
